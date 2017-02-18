@@ -14,7 +14,7 @@ Postman's [native apps](http://www.getpostman.com/apps) provide a SSL Certificat
 
 To open the Certificate Manager, click the wrench icon on the top right, choose `Settings` (or use the shortcut `Cmd/Ctrl + ,`), then switch over to the `Certificates` tab.
 
-![](https://cloud.githubusercontent.com/assets/7689783/19720908/bbbd8d9c-9b8d-11e6-9286-8e8ba12d9c68.png)
+![](https://static.getpostman.com/postman-docs/bbbd8d9c-9b8d-11e6-9286-8e8ba12d9c68.png)
 
 ### Adding a Client Certificate
 
@@ -33,11 +33,11 @@ If you used a passphrase while generating the client certificate, you'll need to
 
 Once you are finished, click on `Add`.
 
-![](https://cloud.githubusercontent.com/assets/7689783/19721093/75d764c8-9b8e-11e6-85c2-feff9eea4345.png)
+![](https://static.getpostman.com/postman-docs/75d764c8-9b8e-11e6-85c2-feff9eea4345.png)
 
 Once your certificate is added, it should appear in the Certificate Manager list.
 
-![](https://cloud.githubusercontent.com/assets/7689783/19721340/7a071024-9b8f-11e6-97d2-814aa3075c80.png)
+![](https://static.getpostman.com/postman-docs/7a071024-9b8f-11e6-97d2-814aa3075c80.png)
 
 **NOTE:** You should not have multiple certificates set for the same domain. If you have multiple ones set, only the last one set will be used.
 
@@ -49,13 +49,13 @@ You can verify this. To do so, open up your Postman Console (Cmd/Ctrl + Alt + C)
 
 Now, send a request to `https://echo.getpostman.com/get`, keeping the Postman Console open. Notice we're using `https` to make sure the certificate is sent. Once the response arrives, switch over to the Postman Console. You should see your request there. If you expand your request, you should be able to see which certificate was sent along with the request.
 
-![](https://cloud.githubusercontent.com/assets/7689783/19721699/0ccdeada-9b91-11e6-98af-eb08f8e68f5b.png)
+![](https://static.getpostman.com/postman-docs/0ccdeada-9b91-11e6-98af-eb08f8e68f5b.png)
 
 ### Removing a Certificate
 
 To remove a certificate, you can use the `Remove Certificate` button next to the certificate in the `Certificate Manager`
 
-![](https://cloud.githubusercontent.com/assets/7689783/19721340/7a071024-9b8f-11e6-97d2-814aa3075c80.png)
+![](https://static.getpostman.com/postman-docs/7a071024-9b8f-11e6-97d2-814aa3075c80.png)
 
 ### Editing a Certificate
 

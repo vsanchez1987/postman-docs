@@ -20,17 +20,17 @@ We recommend creating collections for a group of endpoints. It's also preferable
 Keep in mind, Run in Postman works well with Swagger and RAML too. Just convert your file to a Collection by [importing it in Postman][1].
 
 3. Click on the collection you would like to embed and hit Share.
-![](https://cloud.githubusercontent.com/assets/681190/18237865/29682800-7354-11e6-8991-29f1ed75c5a8.png)
+![](https://static.getpostman.com/postman-docs/29682800-7354-11e6-8991-29f1ed75c5a8.png)
 
 4. Shift to the Embed Button tab, and click 'Generate Code'. Note: This will upload the collection to our servers.
-![](https://cloud.githubusercontent.com/assets/681190/18238175/cb547d0a-7357-11e6-8aa3-89e05ad89172.png)
+![](https://static.getpostman.com/postman-docs/cb547d0a-7357-11e6-8aa3-89e05ad89172.png)
 
 6. Pick whether you would like a CSS button or a markdown button:
 
 The CSS option works well if you want to add the button to your own website, and can edit the source code. 
 
 The markdown option works if you need to add the button to a markdown document, like a README.md file in your Github or Bitbucket repository.
-![](https://cloud.githubusercontent.com/assets/681190/18238097/ce9f391a-7356-11e6-8600-6896b8957b7e.png)
+![](https://static.getpostman.com/postman-docs/ce9f391a-7356-11e6-8600-6896b8957b7e.png)
 
 Here's an example markdown snippet
 
