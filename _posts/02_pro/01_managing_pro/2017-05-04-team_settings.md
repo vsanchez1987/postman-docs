@@ -6,6 +6,7 @@ title: "Team settings"
 page_id: "team_settings"
 tags: 
   - "pro"
+  - "enterprise'
 warning: false
 
 ---
