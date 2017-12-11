@@ -27,6 +27,11 @@ You can create a mock in several ways:
   
 After you create the mock, Postman Pro and Enterprise users can [share the underlying collection](/docs/postman/team_library/sharing#sharing-collections){:target="_blank"} with the team or specific team members, and provide permissions to edit or view.
 
+**Note**: This topic only covers how to create a mock with the **New** button and the Launch screen. To learn how to create a mock with the Postman app or the Postman Pro API, click the links above to provide detailed information.
+
+<br>
+
+
 #### New button
 
 1. In the header toolbar, click the **New** button.
@@ -40,7 +45,7 @@ The **Create New** tab appears.
 
 <ol start="2">
   <li>Click "Mock Server".</li>
-  <li>Select if you want to mock a new API or an existing or team collection. If you create a new API to monitor, you must select a request method and enter the request path, response code, and response body. If you use an existing or team collection, you must select a collection from a list of existing or team collections. </li>
+  <li>Select if you want to mock a new API or an existing or team collection. If you create a new API to mock, you must select a request method and enter the request path, response code, and response body. If you use an existing or team collection to mock, you must select a collection from a list of existing or team collections. </li>
 </ol>
 
 [![config mock](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-config.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/mock-config.png) 
@@ -70,7 +75,7 @@ In the **Next steps** tab, see a list of suggested next steps to maximize the ef
 
 The **Create New** tab appears by default when you launch Postman. 
 
-1. Open Postman.
+1. Open the Postman app.
 2. In the **Create New** tab, click "Mock Server".
 3. Follow steps 3-6 in the previous **New** button section. 
 
