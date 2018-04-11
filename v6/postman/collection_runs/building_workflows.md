@@ -15,9 +15,9 @@ When you start a collection run, all requests are run in the order you see them 
 
 All requests inside are executed first, by order of the folder they are in, and then any requests that are in the root of the collection. 
 
-However, you can override this behavior using a [built-in function](/docs/v6/postman/scripts/branching_and_looping){:target="_blank"} called `setNextRequest()`.
+However, you can override this behavior using a [built-in function](/docs/v6/postman/scripts/branching_and_looping){:target="_blank"} called `postman.setNextRequest()`.
 
-`setNextRequest()`, as the name suggests, allows you to specify which request runs next. Let's look at a sample collection to understand how `setNextRequest()` better. 
+`postman.setNextRequest()`, as the name suggests, allows you to specify which request runs next. Let's look at a sample collection to understand how `setNextRequest()` better. 
 
 Suppose we have a collection with four requests. If you run this collection directly, the collection runner will run all four requests in order.
 
@@ -35,7 +35,7 @@ In the example, we're setting the next request to `Request 4` in the test script
 
 [![collection runner view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58793875.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58793875.png)
 
-**Note**: If you want to run a collection and not send a single request, then `setNextRequest()` only works with the collection runner and Newman.
+**Note**: If you want to run a collection and not send a single request, then `postman.setNextRequest()` only works with the collection runner and Newman.
 
 ### Advanced usage
 
@@ -43,6 +43,6 @@ Now that we have a good understanding of how `setNextRequest()` works, we can do
 
 There are some gotchas to keep in mind:
 
-   *   `setNextRequest()` is always executed at the end of the current script. This means that if you put `setNextRequest()` before other code blocks, these blocks will still be executed.
+   *   `postman.setNextRequest()` is always executed at the end of the current script. This means that if you put `setNextRequest()` before other code blocks, these blocks will still be executed.
 
-   *   `setNextRequest()` has a scope, which is the source of your collection run. This means that if you run a collection, you can jump to any request in the collection (even requests inside folders, using the same syntax). However, if you run a folder, the scope of `setNextRequest()` is limited to that folder. This means that you can jump to any request within this folder, but not ones that are outside of the folder. This includes requests inside other folders, and also root-level requests in the collection. To read more about [running collections or folders](/docs/v6/postman/collection_runs/starting_a_collection_run){:target="_blank"}.
+   *   `postman.setNextRequest()` has a scope, which is the source of your collection run. This means that if you run a collection, you can jump to any request in the collection (even requests inside folders, using the same syntax). However, if you run a folder, the scope of `setNextRequest()` is limited to that folder. This means that you can jump to any request within this folder, but not ones that are outside of the folder. This includes requests inside other folders, and also root-level requests in the collection. To read more about [running collections or folders](/docs/v6/postman/collection_runs/starting_a_collection_run){:target="_blank"}.
