@@ -17,7 +17,7 @@ All requests inside are executed first, by order of the folder they are in, and 
 
 However, you can override this behavior using a [built-in function](/docs/v6/postman/scripts/branching_and_looping){:target="_blank"} called `postman.setNextRequest()`.
 
-`postman.setNextRequest()`, as the name suggests, allows you to specify which request runs next. Let's look at a sample collection to understand how `setNextRequest()` better. 
+`postman.setNextRequest()`, as the name suggests, allows you to specify which request runs next. Let's look at a sample collection to understand how `postman.setNextRequest()` better. 
 
 Suppose we have a collection with four requests. If you run this collection directly, the collection runner will run all four requests in order.
 
