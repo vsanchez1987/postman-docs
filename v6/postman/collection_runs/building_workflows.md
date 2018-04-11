@@ -11,21 +11,34 @@ warning: false
 
 ### Basic usage
 
-When you start a collection run, all requests are run in the order you see them in the main app. This means that all requests inside are executed first, by order of the folder they are in, and then any requests that are in the root of the collection. However, you can override this behavior using a [built-in function](/docs/postman/scripts/branching_and_looping) called `setNextRequest()`.
+When you start a collection run, all requests are run in the order you see them in the main app. 
 
-`setNextRequest()`, as the name suggests, will allow you to specify which request will be run next. The easiest way to understand this is to look at a sample collection.
+All requests inside are executed first, by order of the folder they are in, and then any requests that are in the root of the collection. 
 
-Let's assume that we have a collection with four requests. If you run this collection directly, the collection runner will run all four requests in order.
+However, you can override this behavior using a [built-in function](/docs/v6/postman/scripts/branching_and_looping) called `setNextRequest()`.
+
+`setNextRequest()`, as the name suggests, allows you to specify which request runs next. Let's look at a sample collection to understand how `setNextRequest()` better. 
+
+Suppose we have a collection with four requests. If you run this collection directly, the collection runner will run all four requests in order.
 
 [![setNextRequest in tests tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-building-workflows1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-building-workflows1.png)
+
 [![collection runner view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58793861.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58793861.png)
 
-Let's now add `postman.setNextRequest()` to Request 1's test script, as shown. `postman.setNextRequest()` is a function with one argument, which is the name or ID of the request you want to run next. In the example, we're setting the next request to `Request 4` in the test script for `Request 1`. This means the execution will jump to `Request 4` after `Request 1` has completed. If we run the same collection now, you'll see that only two requests are run now.
+Let's now add `postman.setNextRequest()` to Request 1's test script, as shown. 
+
+`postman.setNextRequest()` is a function with one argument, which is the name or ID of the request you want to run next. 
+
+In the example, we're setting the next request to `Request 4` in the test script for `Request 1`. So the execution jumps to `Request 4` after `Request 1` has completed. If we run the same collection now, you'll see that only two requests are run now.
 
 [![setNextRequest with request name as parameter](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-building-workflows1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-building-workflows1.png)
+
 [![collection runner view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58793875.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58793875.png)
 
-Note that `setNextRequest()` will only work with the collection runner and Newman where the intent is to run a collection, as opposed to sending a single request.
+**Note**: If you want to run a collection and not send a single request, then `setNextRequest()` only works with the collection runner and Newman.
+
+**Note**: The response from a callback is a Postman collection response instance, not a plain JavaScript object. For more information, see [Response](http://www.postmanlabs.com/postman-collection/Response.html){:target="_blank"} in the Postman API reference. For additional information, see [Postman Sandbox API reference](/docs/v6/postman/scripts/postman_sandbox_api_reference){:target="_blank"}. 
+
 
 ### Advanced usage
 
