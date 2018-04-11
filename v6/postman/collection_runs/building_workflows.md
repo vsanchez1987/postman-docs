@@ -37,9 +37,6 @@ In the example, we're setting the next request to `Request 4` in the test script
 
 **Note**: If you want to run a collection and not send a single request, then `setNextRequest()` only works with the collection runner and Newman.
 
-**Note**: The response from a callback is a Postman collection response instance, not a plain JavaScript object. For more information, see [Response](http://www.postmanlabs.com/postman-collection/Response.html){:target="_blank"} in the Postman API reference. For additional information, see [Postman Sandbox API reference](/docs/v6/postman/scripts/postman_sandbox_api_reference){:target="_blank"}. 
-
-
 ### Advanced usage
 
 Now that we have a good understanding of how `setNextRequest()` works, we can do some pretty advanced stuff with it. Since you are no longer restricted by the order in which you define your requests, you can jump around your collection, establish conditional logic, or skip unnecessary requests. This [blog post](http://blog.getpostman.com/2016/11/09/generate-spotify-playlists-using-a-postman-collection/){:target="_blank"} explains how you can write a collection that will generate Spotify playlists for you based on your favorite musical artists.
