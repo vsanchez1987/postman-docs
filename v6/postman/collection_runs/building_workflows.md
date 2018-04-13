@@ -21,7 +21,7 @@ However, you can override this behavior using a [built-in function](/docs/v6/pos
 
 Suppose we have a collection with four requests. If you run this collection directly, the collection runner will run all four requests in order.
 
-[![setNextRequest in tests tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-building-workflows1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-building-workflows1.png)
+[![setNextRequest in tests tab](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/setNextRequest.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/setNextRequest.png)
 
 [![collection runner view](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58793861.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58793861.png)
 
