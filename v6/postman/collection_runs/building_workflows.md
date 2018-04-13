@@ -17,7 +17,7 @@ All requests inside are executed first, by order of the folder they are in, and 
 
 However, you can override this behavior using a [built-in function](/docs/v6/postman/scripts/branching_and_looping){:target="_blank"} called `postman.setNextRequest()`.
 
-`postman.setNextRequest()`, as the name suggests, allows you to specify which request runs next. Let's look at a sample collection to understand how `postman.setNextRequest()` better. 
+`postman.setNextRequest()`, as the name suggests, allows you to specify which request runs next. Let's look at a sample collection to understand `postman.setNextRequest()` better. 
 
 Suppose we have a collection with four requests. If you run this collection directly, the collection runner will run all four requests in order.
 
@@ -47,4 +47,4 @@ There are some gotchas to keep in mind:
 
    *   `postman.setNextRequest()` is always executed at the end of the current script. This means that if you put `postman.setNextRequest()` before other code blocks, these blocks will still be executed.
 
-   *   `postman.setNextRequest()` has a scope, which is the source of your collection run. This means that if you run a collection, you can jump to any request in the collection (even requests inside folders, using the same syntax). However, if you run a folder, the scope of `postman.setNextRequest()` is limited to that folder. This means that you can jump to any request within this folder, but not ones that are outside of the folder. This includes requests inside other folders, and also root-level requests in the collection. To read more about [running collections or folders](/docs/v6/postman/collection_runs/starting_a_collection_run){:target="_blank"}.
+   *   `postman.setNextRequest()` has a scope, which is the source of your collection run. This means that if you run a collection, you can jump to any request in the collection (even requests inside folders, using the same syntax). However, if you run a folder, the scope of `postman.setNextRequest()` is limited to that folder. This means that you can jump to any request within this folder, but not ones that are outside of the folder. This includes requests inside other folders, and also root-level requests in the collection. Read more about [running collections or folders](/docs/v6/postman/collection_runs/starting_a_collection_run){:target="_blank"}.
