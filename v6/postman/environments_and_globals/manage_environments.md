@@ -7,13 +7,13 @@ warning: false
 
 An environment is a set of key-value pairs. The key represents the name of the variable. You can use a [data editor](/docs/v6/postman/launching_postman/navigating_postman){:target="_blank"} to modify an environment. 
 
-This topic describes how to create, select, edit, and share an environment.
+While working with APIs, you often need different setups for your local machine, the development server, or the production API. Environments let you customize requests using variables so you can easily switch between different setups without changing your requests. 
 
-* [Creating a new environment](#creating-a-new-environment)
-* [Selecting an active environment](#selecting-an-active-environment)
-* [Editing an active environment](#editing-an-active-environment)
-* [Sharing an environment](#sharing-an-environment)
+You won’t have to remember all those values once they are in Postman. You can download environments, save them as JSON files, and upload them later.
 
+You can create, share, duplicate, export, and delete an environment. You can also import an environment as a single JSON file.
+
+> **Environment and global variables are always stored as strings. If you’re storing objects/arrays, be sure to `JSON.stringify()` them before storing, and `JSON.parse()` them while retrieving.**
 
 ### **Creating a new environment**
 
@@ -22,16 +22,14 @@ You can create a new environment from the:
 * **New** button
 * Launch screen
 
-
 #### Manage environments icon
 
 Click the "Manage Environments" icon in the upper right corner of the Postman app.
 
 [![manage environments icon](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-environment65.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-manage-environment65.png)
 
- Select “Manage Environments”.
- 
- Click the <b>Add</b> button.
+* Select “Manage Environments”.
+* Click the **Add** button.
   
 #### New button
 
@@ -101,3 +99,4 @@ For more information about variables and globals, see:
 * [Intro to environments and globals](/docs/v6/postman/environments_and_globals/intro_to_environments_and_globals){:target="_blank"}
 * [Manage globals](/docs/v6/postman/environments_and_globals/manage_globals){:target="_blank"}
 
+For Postman Pro and Enterprise users, learn how to [share environments](/docs/v6/postman/team_library/sharing){:target="_blank"} with team members.
