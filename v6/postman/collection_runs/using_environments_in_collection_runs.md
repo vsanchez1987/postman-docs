@@ -52,6 +52,10 @@ By default, any variable changes in the environment (or globals) in the Collecti
 
 **Note:** When you run a collection, Postman takes a layered approach in updating your current and initial values to protect your data. There are two options –  ‘Keep Values’ and ‘Automatically persist variable values’ that work in tandem with your variables to keep them the way you want. The behavior of these variables depends a lot on the way you set these two options in your settings. For a general understanding of inter-dependency of these settings, you may refer to the following flow chart. 
 
+https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Auto-Persist-KeepVarsChart.png
+
+After running your collection, Postman first checks the setting ‘Keep Variables’. If it is off, it will stop. If it is on, Postman updates your current values. Once Postman updates the current values, it will still check if Auto-Persist is on/off. If this option is off, Postman stops. If this option is ‘on’, it will update the initial values. 
+
 [![collection runner results](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58704076.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58704076.png)
 
 By default, `Persist Variables` is checked the first time you open the Collection Runner. If you do not want variables to be updated during the run, deselect the `Persist Variables` checkbox. 
