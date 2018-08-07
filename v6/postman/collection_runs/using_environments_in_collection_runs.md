@@ -44,11 +44,13 @@ Download the [sample environment JSON file](https://s3.amazonaws.com/postman-sta
 
 In the Collection Runner, select the test environment from the environment dropdown on the left and run the collection. You'll see the tests pass. 
 
-[![collection runner parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/runs_collection_run.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/runs_collection_run.png)  
+[![collection runner parameters](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/run_collection_run_keepvars.png)
 
 If you switch back to the main Postman app window and check the value of the variable `foo`, you'll see that it is now `bar2`. 
 
-By default, any variable changes in the environment (or globals) in the Collection Runner shows in the main Postman app window because `Persist Variables` is checked in the options. If you run the collection once again, you'll see that it now fails, since we changed the value of the variable `foo`.
+By default, any variable changes in the environment (or globals) in the Collection Runner shows in the main Postman app window because `Keep Variables` is checked in the options. If you run the collection once again, you'll see that it now fails, since we changed the value of the variable `foo`.
+
+**Note:** When you run a collection, Postman takes a layered approach in updating your current and initial values to protect your data. There are two options –  ‘Keep Values’ and ‘Automatically persist variable values’ that work in tandem with your variables to keep them the way you want. The behavior of these variables depends a lot on the way you set these two options in your settings. For a general understanding of inter-dependency of these settings, you may refer to the following flow chart. 
 
 [![collection runner results](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58704076.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/58704076.png)
 
