@@ -59,7 +59,8 @@ The Postman Chrome app can only run on the Chrome browser. To use the Postman Ch
 
 If you already have Chrome installed, head over to [Postman’s page](https://chrome.google.com/webstore/detail/postman-rest-client-packa/fhbjgbiflinjbdggehcddcbncdddomop?hl=en){:target="_blank"} on the Chrome Web Store, and click ‘Add to Chrome’.
 
-The download should take a few minutes depending on your internet connection. Once you’ve downloaded the app, you can [launch Postman](/docs/v6/postman/launching_postman/installation_and_updates).
+The download should take a few minutes depending on your internet connection. Once you’ve downloaded the app, you can [launch Postman](https://www.getpostman.com/docs/v6/postman/launching_postman/installation_and_updates)
+.
 
 ### Differences between Chrome and native apps
 
