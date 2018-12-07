@@ -97,7 +97,7 @@ Enter your GitLab Personal Access Token, specify your Gitlab custom/self-hosted 
 Your Collection is pushed to your GitLab project under the directory that you specified and saved as a single JSON file. This is illustrated in the following screen:</li>
 </ol>
 
-[![file in Gitlab project](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Gitlab_CustomDomain_Collection1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Gitlab_CustomDomain_Collection1.png)
+[![file in Gitlab project](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Gitlab_repo2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Gitlab_repo2.png)
 
 Now every change that is saved to your Postman Collection automatically commits changes to your GitLab project in real time. Your Collections and code can exist in the same repository.
 
@@ -111,4 +111,4 @@ Click Add Integrations.
 
 Now, you can go to your Gitlab domain and view your backed-up collections, as illustrated in the screen below:
 
-[![gitlab advanced options](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Gitlab_repo1.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Gitlab_repo1.png)
+[![gitlab advanced options](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Gitlab_repo2.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/Gitlab_repo2.png)
