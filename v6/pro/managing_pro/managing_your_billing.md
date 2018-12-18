@@ -6,7 +6,7 @@ tags:
 warning: false
 ---
 
-You can manage your billing from the [Billing Overview]({{site.pm.gs}}/pay/billing){:target="_blank"} page. 
+You can manage your billing from the [Billing Overview](https://go.postman.co/billing/overview){:target="_blank"} page. 
 
 [![manage billing](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-billing-overview-page.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/WS-billing-overview-page.png)
 
