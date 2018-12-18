@@ -13,13 +13,13 @@ Postman generates and hosts browser-based API documentation for your Collections
 
 **Postman app**
 
-To [access the private view](/docs/v6/postman/api_documentation/viewing_documentation){:target="_blank"} of your team documentation, go to the sidebar and click the **>** icon in the collection you want to view. Then click "View in web" to generate the documentation for the collection.
+To [access the private view](/docs/v6/postman/api_documentation/viewing_documentation) of your team documentation, go to the sidebar and click the **>** icon in the collection you want to view. Then click "View in web" to generate the documentation for the collection.
 
 [![view doc sidebar](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/view-web-documentation.png)](https://s3.amazonaws.com/postman-static-getpostman-com/postman-docs/view-web-documentation.png)
 
 **Postman web**
 
-To access the private view of your team documenation, go to your [workspaces dashboard](https://app.getpostman.com/dashboard){:target="_blank"}. 
+To access the private view of your team documenation, go to your [workspaces dashboard](https://app.getpostman.com/dashboard). 
 
 Click the "View all collections" link. 
 
@@ -31,7 +31,7 @@ Click a collection to generate the documentation.
 
 ### Public documentation view
 
-When you [publish your documentation](/docs/v6/postman/api_documentation/publishing_public_docs){:target="_blank"}, you can use the public link to view the documentation. 
+When you [publish your documentation](/docs/v6/postman/api_documentation/publishing_public_docs), you can use the public link to view the documentation. 
 
 The public link displays after you publish your documentation. The documentation is also accessible in the "Published" dropdown in the private documentation view.
 
@@ -99,7 +99,7 @@ Documentation for your API includes:
 
 Postman uses ordered requests and folders to organize documentation in sections to reflect the structure of your collection.
 
-You can customize descriptions using [Markdown](/docs/v6/postman/api_documentation/how_to_document_using_markdown){:target="_blank"} styling with embedded graphics to complement your documentation. 
+You can customize descriptions using [Markdown](/docs/v6/postman/api_documentation/how_to_document_using_markdown) styling with embedded graphics to complement your documentation. 
 
 We support GitHub flavored markdown so you can include tables. When including block elements, make sure you leave an empty line before and after to avoid any rendering issues.
 
@@ -122,4 +122,4 @@ The links are generated using IDs for the requests, folders and responses. If yo
 
 ### Free documentation views with your Postman account
  
-Public and private documentation each receive 1000 free views per month. You can check your usage limits through the [Postman API](https://docs.api.getpostman.com){:target="_blank"} or the [account usage page](https://go.pstmn.io/postman-account-limits){:target="_blank"}.
+Public and private documentation each receive 1000 free views per month. You can check your usage limits through the [Postman API](https://docs.api.getpostman.com) or the [account usage page](https://go.pstmn.io/postman-account-limits).
