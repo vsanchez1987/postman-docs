@@ -10,7 +10,7 @@ warning: false
 
 Only an Enterprise team administrator (admin) can configure single sign-on (SSO) for a Postman team.
 
-In [Team Settings](https://app.getpostman.com/dashboard/teams/edit){:target="_blank"} for an enterprise plan, scroll down and click the **Add a new authentication method** button.
+In [Team Settings](https://app.getpostman.com/dashboard/teams/edit) for an enterprise plan, scroll down and click the **Add a new authentication method** button.
 
 In the **ADD AUTHENTICATION METHOD** modal, select the authentication type. Enter an authentication name that is easily identifiable to your team. Then click the **Proceed** button.
 
